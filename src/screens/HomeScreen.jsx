@@ -8,11 +8,11 @@ import Message from "../components/shared/Message";
 const HomeScreen = () => {
   const dispatch = useDispatch();
   const productList = useSelector((state) => state.productList);
-  console.log(productList);
+  // console.log(productList);
   const { loading, error, products } = productList;
-  console.log(loading);
-  console.log(error);
-  console.log(products);
+  // console.log(loading);
+  // console.log(error);
+  // console.log(products);
 
   useEffect(() => {
     dispatch(listProducts());

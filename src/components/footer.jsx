@@ -8,7 +8,7 @@ const footer = () => {
       <footer>
         
         <Container >
-          <p class="bg-dark text-white">
+          <p className="bg-dark text-white">
           <Row>
             <Col className="text-left">
               <a href="" color="#ffff">Contact Us</a>

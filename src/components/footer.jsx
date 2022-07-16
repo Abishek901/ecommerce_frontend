@@ -11,7 +11,7 @@ const footer = () => {
           <p className="bg-dark text-white">
           <Row>
             <Col className="text-left">
-              <a href="" color="#ffff">Contact Us</a>
+              <a href="/" color="#ffff">Contact Us</a>
             </Col>
             <Col className="text-center">
               <span>About Us </span>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Form, Button, Row, Col, Table } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
@@ -7,14 +7,14 @@ import Message from "../components/shared/Message";
 import Loader from "../components/shared/Loader";
 import { getUserDetails, updateUserProfile } from "../actions/userAction";
 import { listMyOrders } from "../actions/orderAction";
-import { ORDER_CREATE_REQUEST } from "../constants/orderConstant";
+// import { ORDER_CREATE_REQUEST } from "../constants/orderConstant";
 
 const ProfileScreen = ({ location, history }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  const [message, setMessage] = useState("");
+  const [message] = useState("");
 
   const dispatch = useDispatch();
   const userDetails = useSelector((state) => state.userDetails);

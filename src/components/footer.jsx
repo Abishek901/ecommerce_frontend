@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+// import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 const footer = () => {
   return (
